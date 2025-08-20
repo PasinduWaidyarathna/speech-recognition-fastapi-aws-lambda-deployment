@@ -10,7 +10,7 @@ from mangum import Mangum
 app = FastAPI()
 handler = Mangum(app)
 
-MODEL_PATH = "models/audio_model.keras"
+MODEL_PATH = "/var/task/models/audio_model.keras"
 IMG_SIZE = 125   # unused here, but you can remove
 # load once at cold‑start
 try:
