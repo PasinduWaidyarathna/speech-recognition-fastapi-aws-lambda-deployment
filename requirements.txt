@@ -1,6 +1,6 @@
 fastapi
 uvicorn
 mangum
-tensorflow==2.16.0
+tensorflow==2.18.0
 python-multipart
 numpy
